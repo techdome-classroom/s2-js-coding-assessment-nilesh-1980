@@ -31,10 +31,6 @@ function isValid(s) {
     return stack.length === 0;
 }
 
-// Example usage:
-console.log(isValid("()"));     // true
-console.log(isValid("()[]{}")); // true
-console.log(isValid("(]"));     // false
 
 module.exports = { isValid };
 
